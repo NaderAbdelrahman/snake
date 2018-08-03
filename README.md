@@ -1,4 +1,4 @@
-# Snaék
+# Snake
 ### To run, in your terminal, enter:
 ```
 node app.js
