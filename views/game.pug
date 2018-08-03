@@ -1,0 +1,15 @@
+head
+    meta(charset="UTF-8")
+    title Snake
+    link(rel="stylesheet" href="/css/style.css")
+
+body
+    h1(id="highest_score_display") Highest Score: 0
+    div(id="game_window")
+        canvas(id="canvas" width="700" height="700")
+        h1 Please Play
+        button(id="btn") START
+
+script(src="javascript/settings.js")
+script(src="javascript/draw.js")
+script(src="javascript/app.js")
